@@ -14,7 +14,7 @@ jobs:
         run: uname
 
   mac-job:
-    run-on: mac-latest
+    run-on: macos-12
     steps:
       - name: Where am I running?
         run: uname
